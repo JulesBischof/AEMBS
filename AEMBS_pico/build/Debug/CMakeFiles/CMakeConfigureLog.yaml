@@ -1,0 +1,552 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      The target system is: PICO -  - cortex-m0plus
+      The host system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Raspy/pico/sdk/toolchain/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x16): undefined reference to `_exit'
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x10): undefined reference to `_lseek'
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x10): undefined reference to `_read'
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x10): undefined reference to `_write'
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Raspy/pico/sdk/toolchain/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug/CMakeFiles/3.29.9/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Raspy/pico/sdk/toolchain/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x16): undefined reference to `_exit'
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x10): undefined reference to `_lseek'
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x10): undefined reference to `_read'
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x10): undefined reference to `_write'
+      C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Raspy/pico/sdk/toolchain/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug/CMakeFiles/3.29.9/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1165 (message)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (xPack GNU Arm Embedded GCC x86_64) 13.2.1 20231009
+      Copyright (C) 2023 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug/CMakeFiles/CMakeScratch/TryCompile-neswuw"
+      binary: "C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug/CMakeFiles/CMakeScratch/TryCompile-neswuw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Raspy/pico/sdk/pico-sdk/cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug/CMakeFiles/CMakeScratch/TryCompile-neswuw'
+        
+        Run Build Command(s): C:/Raspy/pico/sdk/ninja/ninja.exe -v cmTC_ac996
+        [1/2] C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj -c C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --disable-libatomic --enable-multilib --with-multilib-list=aprofile,rmprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.1 20231009 (xPack GNU Arm Embedded GCC x86_64) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac996.dir/'
+         C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ac996.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\Julian\\AppData\\Local\\Temp\\ccD1bmCz.s
+        GNU C17 (xPack GNU Arm Embedded GCC x86_64) version 13.2.1 20231009 (arm-none-eabi)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"
+        ignoring nonexistent directory "C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/lib/gcc/arm-none-eabi/13.2.1/../../../../include"
+        ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"
+        ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include
+         C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed
+         C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: d8da0c9ff0c0a737e8c71f06a3209a43
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac996.dir/'
+         C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj C:\\Users\\Julian\\AppData\\Local\\Temp\\ccD1bmCz.s
+        GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.41.0.20231009
+        COMPILER_PATH=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/;C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/;C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib -v CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj -o cmTC_ac996.elf   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --disable-libatomic --enable-multilib --with-multilib-list=aprofile,rmprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.1 20231009 (xPack GNU Arm Embedded GCC x86_64) 
+        COMPILER_PATH=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/;C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/;C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ac996.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ac996.elf.'
+         C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe -plugin C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll -plugin-opt=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Julian\\AppData\\Local\\Temp\\ccLlH0QC.res --sysroot=C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi -X -o cmTC_ac996.elf -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1 -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj
+        C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000\x0d
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ac996.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ac996.elf.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+          add: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+          add: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include] ==> [C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/include]
+        collapse include dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed] ==> [C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+        collapse include dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/include]
+        implicit include dirs: [C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/include;C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/include-fixed;C:/Raspy/pico/sdk/toolchain/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug/CMakeFiles/CMakeScratch/TryCompile-neswuw']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Raspy/pico/sdk/ninja/ninja.exe -v cmTC_ac996]
+        ignore line: [[1/2] C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj -c C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --disable-libatomic --enable-multilib --with-multilib-list=aprofile,rmprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.1 20231009 (xPack GNU Arm Embedded GCC x86_64) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac996.dir/']
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ac996.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\Julian\\AppData\\Local\\Temp\\ccD1bmCz.s]
+        ignore line: [GNU C17 (xPack GNU Arm Embedded GCC x86_64) version 13.2.1 20231009 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"]
+        ignore line: [ignoring nonexistent directory "C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/lib/gcc/arm-none-eabi/13.2.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d8da0c9ff0c0a737e8c71f06a3209a43]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac996.dir/']
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj C:\\Users\\Julian\\AppData\\Local\\Temp\\ccD1bmCz.s]
+        ignore line: [GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.41.0.20231009]
+        ignore line: [COMPILER_PATH=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib -v CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj -o cmTC_ac996.elf   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --disable-libatomic --enable-multilib --with-multilib-list=aprofile,rmprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.1 20231009 (xPack GNU Arm Embedded GCC x86_64) ]
+        ignore line: [COMPILER_PATH=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ac996.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ac996.elf.']
+        link line: [ C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe -plugin C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll -plugin-opt=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Julian\\AppData\\Local\\Temp\\ccLlH0QC.res --sysroot=C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi -X -o cmTC_ac996.elf -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1 -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj]
+          arg [C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Julian\\AppData\\Local\\Temp\\ccLlH0QC.res] ==> ignore
+          arg [--sysroot=C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ac996.elf] ==> ignore
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib]
+          arg [--build-id=none] ==> ignore
+          arg [CMakeFiles/cmTC_ac996.dir/CMakeCCompilerABI.c.obj] ==> ignore
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ac996.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ac996.elf.'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp] ==> [C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> [C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc] ==> [C:/Raspy/pico/sdk/toolchain/lib/gcc]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp;C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib/thumb/v6-m/nofp;C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1;C:/Raspy/pico/sdk/toolchain/lib/gcc;C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cmgd4f"
+      binary: "C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cmgd4f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
+      CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Raspy/pico/sdk/pico-sdk/cmake"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cmgd4f'
+        
+        Run Build Command(s): C:/Raspy/pico/sdk/ninja/ninja.exe -v cmTC_90cce
+        [1/2] C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-g++.exe
+        Target: arm-none-eabi
+        Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --disable-libatomic --enable-multilib --with-multilib-list=aprofile,rmprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.1 20231009 (xPack GNU Arm Embedded GCC x86_64) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90cce.dir/'
+         C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_90cce.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\Julian\\AppData\\Local\\Temp\\ccHB7meX.s
+        GNU C++17 (xPack GNU Arm Embedded GCC x86_64) version 13.2.1 20231009 (arm-none-eabi)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"
+        ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp"
+        ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"
+        ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"
+        ignoring nonexistent directory "C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/lib/gcc/arm-none-eabi/13.2.1/../../../../include"
+        ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"
+        ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1
+         C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp
+         C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward
+         C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include
+         C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed
+         C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: e26a2c6458bf6debeff18264bd4a8ca9
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90cce.dir/'
+         C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Julian\\AppData\\Local\\Temp\\ccHB7meX.s
+        GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.41.0.20231009
+        COMPILER_PATH=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/;C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/;C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/\x0d
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib -v CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_90cce.elf   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-g++.exe
+        COLLECT_LTO_WRAPPER=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --disable-libatomic --enable-multilib --with-multilib-list=aprofile,rmprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.1 20231009 (xPack GNU Arm Embedded GCC x86_64) 
+        COMPILER_PATH=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/;C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/;C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/;C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_90cce.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_90cce.elf.'
+         C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe -plugin C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll -plugin-opt=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Julian\\AppData\\Local\\Temp\\ccbZ6cx3.res --sysroot=C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi -X -o cmTC_90cce.elf -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1 -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj
+        C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_90cce.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_90cce.elf.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1]
+          add: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp]
+          add: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward]
+          add: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+          add: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+          add: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/include/c++/13.2.1]
+        collapse include dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp]
+        collapse include dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/include/c++/13.2.1/backward]
+        collapse include dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include] ==> [C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/include]
+        collapse include dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed] ==> [C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+        collapse include dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/include]
+        implicit include dirs: [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/include/c++/13.2.1;C:/Raspy/pico/sdk/toolchain/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp;C:/Raspy/pico/sdk/toolchain/arm-none-eabi/include/c++/13.2.1/backward;C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/include;C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/include-fixed;C:/Raspy/pico/sdk/toolchain/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cmgd4f']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Raspy/pico/sdk/ninja/ninja.exe -v cmTC_90cce]
+        ignore line: [[1/2] C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --disable-libatomic --enable-multilib --with-multilib-list=aprofile,rmprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.1 20231009 (xPack GNU Arm Embedded GCC x86_64) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90cce.dir/']
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Raspy/pico/sdk/cmake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_90cce.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\Julian\\AppData\\Local\\Temp\\ccHB7meX.s]
+        ignore line: [GNU C++17 (xPack GNU Arm Embedded GCC x86_64) version 13.2.1 20231009 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"]
+        ignore line: [ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp"]
+        ignore line: [ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"]
+        ignore line: [ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"]
+        ignore line: [ignoring nonexistent directory "C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/lib/gcc/arm-none-eabi/13.2.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1]
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp]
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward]
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e26a2c6458bf6debeff18264bd4a8ca9]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90cce.dir/']
+        ignore line: [ C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Julian\\AppData\\Local\\Temp\\ccHB7meX.s]
+        ignore line: [GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.41.0.20231009]
+        ignore line: [COMPILER_PATH=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib -v CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_90cce.elf   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Raspy\\pico\\sdk\\toolchain\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --enable-mingw-wildcard --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/win32-x64/x86_64-w64-mingw32/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --disable-libatomic --enable-multilib --with-multilib-list=aprofile,rmprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.1 20231009 (xPack GNU Arm Embedded GCC x86_64) ]
+        ignore line: [COMPILER_PATH=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_90cce.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_90cce.elf.']
+        link line: [ C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe -plugin C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll -plugin-opt=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Julian\\AppData\\Local\\Temp\\ccbZ6cx3.res --sysroot=C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi -X -o cmTC_90cce.elf -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1 -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc -LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj]
+          arg [C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Raspy/pico/sdk/toolchain/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Julian\\AppData\\Local\\Temp\\ccbZ6cx3.res] ==> ignore
+          arg [--sysroot=C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_90cce.elf] ==> ignore
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib]
+          arg [-LC:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib] ==> dir [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib]
+          arg [--build-id=none] ==> ignore
+          arg [CMakeFiles/cmTC_90cce.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+        ignore line: [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_90cce.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_90cce.elf.'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp] ==> [C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> [C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc] ==> [C:/Raspy/pico/sdk/toolchain/lib/gcc]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib]
+        collapse library dir [C:/Raspy/pico/sdk/toolchain/bin/../arm-none-eabi/lib] ==> [C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp;C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib/thumb/v6-m/nofp;C:/Raspy/pico/sdk/toolchain/lib/gcc/arm-none-eabi/13.2.1;C:/Raspy/pico/sdk/toolchain/lib/gcc;C:/Raspy/pico/sdk/toolchain/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+...
