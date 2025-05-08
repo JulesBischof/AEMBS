@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Studium/AEMBS/SW1/AEMBS_pico
-BuildDirectory: C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug
+SourceDirectory: /home/julian/Studium/FS25/AEMBS/AEMBS_pico
+BuildDirectory: /home/julian/Studium/FS25/AEMBS/AEMBS_pico/build/Debug
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-QEH2QNQ
+Site: JuliansYOGA
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: PICO-ninja.exe
+BuildName: PICO-ninja
 
 # Subprojects
 LabelsForSubprojects: 
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Raspy/pico/sdk/cmake/bin/cmake.exe" "C:/Studium/AEMBS/SW1/AEMBS_pico"
-MakeCommand: C:\Raspy\pico\sdk\cmake\bin\cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/usr/local/bin/cmake" "/home/julian/Studium/FS25/AEMBS/AEMBS_pico"
+MakeCommand: /usr/local/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -63,7 +63,7 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: C:/Raspy/pico/sdk/toolchain/bin/arm-none-eabi-g++.exe
+Compiler: /home/julian/Raspy/sdk/toolchain/bin/arm-none-eabi-g++
 CompilerVersion: 13.2.1
 
 # Dynamic analysis (MemCheck)
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/Raspy/pico/sdk/toolchain/bin/gcov.exe
+CoverageCommand: /usr/bin/gcov
 CoverageExtraFlags: -l
 
 # Testing options
@@ -94,6 +94,9 @@ TimeOut: 1500
 # During parallel testing CTest will not start a new test if doing
 # so would cause the system load to exceed this value.
 TestLoad: 
+
+TLSVerify: 
+TLSVersion: 
 
 UseLaunchers: 
 CurlOptions: 

@@ -1,4 +1,4 @@
-// Padded and checksummed version of: C:/Studium/AEMBS/SW1/AEMBS_pico/build/Debug/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/julian/Studium/FS25/AEMBS/AEMBS_pico/build/Debug/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

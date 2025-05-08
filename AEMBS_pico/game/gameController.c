@@ -103,7 +103,9 @@ static void gameTask(void *pv) {
 #endif
   Game_New();
   Game_ShowScreen(GAME_SCREEN_INTRO);
-  delay_ms(2000);
+  delay_ms(500);
+  Game_ShowScreen(GAME_SCREEN_SHOW_HELP);
+  delay_ms(5000);
   for(;;) {
     Game_ShowScreen(GAME_SCREEN_GAMEPLAY);
     update = false;
@@ -112,6 +114,8 @@ static void gameTask(void *pv) {
       event.kind = Game_Event_Kind_Game_Won;
       hasEvent = true;
     } else if (Game_CheckIfGameLost()) { /* game over? */
+      Game_ShowScreen(GAME_SCREEN_SHOW_POINTS);
+      delay_ms(2000);
       event.kind = Game_Event_Kind_Game_Lost;
       hasEvent = true;
     }

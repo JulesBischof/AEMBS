@@ -2,5 +2,20 @@
     "cmake.options.statusBarVisibility": "visible",
     "cmake.buildBeforeRun": true,
     "cmake.configureOnOpen": false,
-    "cmake.useCMakePresets": "always"
+    "cmake.useCMakePresets": "always",
+    "files.associations": {
+        "sw2.h": "c",
+        "platform.h": "c",
+        "blinky_rp_sdk.h": "c",
+        "mculed.h": "c",
+        "leds.h": "c",
+        "sensor.h": "c",
+        "mculog.h": "c",
+        "mcushell.h": "c",
+        "game.h": "c",
+        "gamecontroller.h": "c",
+        "mcushellcdcdevice.h": "c",
+        "shell.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": false
 }

@@ -17,6 +17,7 @@
 #include "leds.h"
 #include "McuSHT31.h"
 #include "McuShellCdcDevice.h"
+#include "game.h"
 
 typedef struct {
   McuShell_ConstStdIOType *stdio;
@@ -33,15 +34,16 @@ static const SHELL_IODesc ios[] =
 };
 
 static const McuShell_ParseCommandCallback CmdParserTable[] =
-{
-  McuShell_ParseCommand, /* McuShell component, is first in list */
-  McuRTOS_ParseCommand, /* FreeRTOS shell parser */
-  McuArmTools_ParseCommand,
-  McuSHT31_ParseCommand,
-  McuLog_ParseCommand,
-  McuShellCdcDevice_ParseCommand,
-  Leds_ParseCommand,
-  NULL /* Sentinel */
+    {
+        McuShell_ParseCommand, /* McuShell component, is first in list */
+        McuRTOS_ParseCommand,  /* FreeRTOS shell parser */
+        McuArmTools_ParseCommand,
+        McuSHT31_ParseCommand,
+        McuLog_ParseCommand,
+        McuShellCdcDevice_ParseCommand,
+        Leds_ParseCommand,
+        Game_ParseCommand,
+NULL /* Sentinel */
 };
 
 static void ShellTask(void *pvParameters) {

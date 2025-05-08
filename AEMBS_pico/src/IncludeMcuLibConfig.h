@@ -18,12 +18,12 @@
 #define McuLib_CONFIG_SDK_VERSION_USED              McuLib_CONFIG_SDK_RPI_PICO
 /* ---------------------------------------------------------------------- */
 /* FreeRTOS */
-#define McuLib_CONFIG_SDK_USE_FREERTOS              (0)
+#define McuLib_CONFIG_SDK_USE_FREERTOS              (1)
 #define configMINIMAL_STACK_SIZE                    (128/sizeof(StackType_t)) /* stack size for IDLE task */
 #define configTIMER_TASK_STACK_DEPTH                (600/sizeof(StackType_t)) /* stack size for Timer Service task */
 #define configTOTAL_HEAP_SIZE                       (64*1024)
-#define configUSE_SEGGER_SYSTEM_VIEWER_HOOKS        (0)
-#define configUSE_TIMERS                            (0) /* if using FreeRTOS timers */
+#define configUSE_SEGGER_SYSTEM_VIEWER_HOOKS        (1)
+#define configUSE_TIMERS                            (1) /* if using FreeRTOS timers */
 #define INCLUDE_xTimerPendFunctionCall              (configUSE_TIMERS) /* must be enabled if using timers */
 /* -------------------------------------------------*/
 /* I2C */
@@ -39,7 +39,7 @@
 #define McuGenericI2C_CONFIG_USE_ON_ERROR_EVENT       (0)
 #define McuGenericI2C_CONFIG_USE_ON_RELEASE_BUS_EVENT (0)
 #define McuGenericI2C_CONFIG_USE_ON_REQUEST_BUS_EVENT (0)
-#define McuGenericI2C_CONFIG_USE_MUTEX                (0 && McuLib_CONFIG_SDK_USE_FREERTOS)
+#define McuGenericI2C_CONFIG_USE_MUTEX                (1 && McuLib_CONFIG_SDK_USE_FREERTOS)
 
 #if CONFIG_USE_HW_I2C /* implementation in McuI2cLib.c */
   #define McuLib_CONFIG_MCUI2CLIB_ENABLED                       (1)

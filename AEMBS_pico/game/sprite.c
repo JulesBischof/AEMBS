@@ -9,6 +9,9 @@
 #include <assert.h>
 #include <string.h> /* for memcpy() */
 
+#include "game_config.h"
+#include "gameModel.h"
+
 #define SPRITE_USE_HEAP_MONITOR   (0 && configUSE_SEGGER_SYSTEM_VIEWER_HOOKS)
 
 #if SPRITE_USE_HEAP_MONITOR
@@ -531,6 +534,9 @@ bool Sprite_CheckCollision(Sprite_t **spriteList, bool removeSprite, Sprite_t **
     next = sprite->next;
     Sprite_UnlinkFromList(spriteList, sprite); /* remove current sprite from list, because the sprite can be in the target list too */
     if (Sprite_CheckTargetHitBoom(sprite, targetList, &targetHit, boom0, boom1)) {
+#if GAME_CONFIG_HAS_SCORE
+      Game_AddScore(points);
+#endif
       if (hitCallback!=NULL) {
         hitCallback(sprite, targetHit);
       }

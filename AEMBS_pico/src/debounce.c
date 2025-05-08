@@ -10,6 +10,9 @@
 #include "buttons.h"
 #include "application.h"
 #include "McuSystemView.h"
+#include "game.h"
+
+#include "SW8.h"
 
 #if McuLib_CONFIG_SDK_USE_FREERTOS
 
@@ -57,6 +60,14 @@ static void OnDebounceEvent(McuDbnc_EventKinds event, uint32_t buttons) {
     case MCUDBNC_EVENT_RELEASED:
     case MCUDBNC_EVENT_LONG_RELEASED:
       button = Buttons_RotateButton(button);
+
+#if PL_RUN_SW8_SUBMODULE
+      App_OnDebounceButtonEvent(button, event); /* call application event handler SW8 */
+#endif
+
+#if PL_CONFIG_USE_GAME /* SW10 */
+      Game_OnButtonEvent(button, event); 
+#endif
       /* \TODO handle button, e.g. call application event, ... */
       break;
 

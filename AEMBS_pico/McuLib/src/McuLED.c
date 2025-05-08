@@ -91,7 +91,7 @@ McuLED_Handle_t McuLED_InitLed(McuLED_Config_t *config) {
     handle->isLowActive = config->isLowActive;
   }
 	return (McuLED_Handle_t)handle;
-}
+} 
 
 McuLED_Handle_t McuLED_DeinitLed(McuLED_Handle_t led) {
   assert(led!=NULL);

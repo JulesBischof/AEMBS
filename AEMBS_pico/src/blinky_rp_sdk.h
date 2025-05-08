@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+ #include "McuWait.h"
+
 #ifndef __BLINKY_RP_SDK_H_
 #define __BLINKY_RP_SDK_H_
 

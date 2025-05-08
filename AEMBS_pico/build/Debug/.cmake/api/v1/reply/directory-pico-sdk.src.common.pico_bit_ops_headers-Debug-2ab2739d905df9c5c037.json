@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pico-sdk/src/common/pico_bit_ops_headers",
+		"source" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_bit_ops_headers"
+	}
+}

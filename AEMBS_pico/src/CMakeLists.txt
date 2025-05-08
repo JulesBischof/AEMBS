@@ -30,7 +30,7 @@ endif()
 add_library(${THIS_LIBRARY_NAME} ${FILES})
 
 add_subdirectory(${MCULIB_DIR}                McuLib)
-# add_subdirectory("${PROJECT_ROOT_DIR}/game"   gameLib)
+add_subdirectory("${PROJECT_ROOT_DIR}/game"   gameLib)
 
 # target_link_libraries: If you link with other libraries, list them here
 target_link_libraries(
@@ -38,7 +38,7 @@ target_link_libraries(
   PRIVATE McuLib
   PRIVATE tinyusb_device
   PRIVATE pico_stdlib
-  # PRIVATE gameLib
+  PRIVATE gameLib
 )
 
 if (ENABLE_UNIT_TESTING)

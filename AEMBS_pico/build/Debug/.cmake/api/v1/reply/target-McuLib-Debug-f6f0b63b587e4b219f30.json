@@ -1,0 +1,4314 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/croutine.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/event_groups.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/list.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/portable/Common/mpu_wrappers.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/portable/GCC/ARM_CM4F/portTicks.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/portable/MemMang/heap_1.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/portable/MemMang/heap_2.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/portable/MemMang/heap_3.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/portable/MemMang/heap_5.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/portable/MemMang/heap_useNewlib.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/queue.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/stream_buffer.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/tasks.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./FreeRTOS/Source/timers.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./Modbus/McuHeidelberg.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./Modbus/McuModbus.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./RNet/McuNRF24L01.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./RNet/McuRNet.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./RNet/RApp.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./RNet/RMAC.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./RNet/RMSG.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./RNet/RNWK.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./RNet/RPHY.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./RNet/RStack.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./RNet/RStdIO.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./RNet/Radio.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./SEGGER_RTT/RTT_Syscalls_GCC.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./SEGGER_RTT/SEGGER_RTT.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./SEGGER_RTT/SEGGER_RTT_printf.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./SEGGER_Sysview/McuSystemView.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./SEGGER_Sysview/SEGGER_SYSVIEW.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./SEGGER_Sysview/SEGGER_SYSVIEW_Config_FreeRTOS.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./SEGGER_Sysview/SEGGER_SYSVIEW_FreeRTOS.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour08Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour08Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour10Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour10Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour12Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour12Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour14Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour14Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour18Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour18Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour24Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontCour24Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv08Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv08Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv10Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv10Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv12Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv12Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv14Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv14Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv18Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv18Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv24Bold.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./fonts/McuFontHelv24Normal.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./littleFS/McuLittleFS.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./littleFS/McuLittleFSBlockDevice.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./littleFS/lfs.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./littleFS/lfs_util.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./minIni/McuMinINI.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./minIni/minGlue-Flash.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./minIni/minGlue-LittleFS.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./minIni/minIni.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuArmTools.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuButton.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuCRC_CreateTable.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuCRC_Generator.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuCoverage.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuCriticalSection.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuDebounce.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuEE24.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuEvents.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuExtRTC.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuFXOS8700.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuFlash.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuFontDisplay.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuGDisplaySSD1306.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuGFont.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuGPIO.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuGenericI2C.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuGenericSWI2C.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuHardFault.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuI2cLib.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuINA260.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuIO.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuLED.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuLib.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuLog.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuPCF85063A.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuRB.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuRTOS.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuRTT.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuSDEP.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuSHT31.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuSHT40.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuSPI.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuSSD1306.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuST7735.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuSemihost.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuShell.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuShellCdcDevice.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuShellUart.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuTimeDate.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuTimeout.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuTrigger.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuULN2003.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuUart485.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuUnity.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuUtility.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuW25Q128.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuWait.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuWatchdog.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuX12_017.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/McuXFormat.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/SCL1.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./src/SDA1.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2040/pico_platform/platform.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/common/hardware_claim/claim.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/common/pico_sync/sem.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/common/pico_sync/mutex.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/common/pico_time/time.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/common/pico_util/datetime.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/common/pico_util/pheap.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/common/pico_util/queue.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+		},
+		{
+			"path" : "srcLib/McuLib/CMakeFiles/McuLib.dir/./home/julian/Raspy/sdk/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.obj"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"INCLUDE",
+			"add_dependencies",
+			"pico_define_boot_stage2",
+			"add_compile_options",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"McuLib/RPxxxx_CMakeLists.txt",
+			"McuLib/CMakeLists.txt",
+			"/home/julian/Raspy/sdk/pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 101,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 75,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 64,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 72,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 80,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 130,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 148,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 65,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 66,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g -std=gnu11"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/src/IncludeMcuLibConfig.h"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-DPICO_STDIO_USB_ENABLE_RESET_VIA_VENDOR_INTERFACE=0"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-DENABLE_UNIT_TESTS=0"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fdata-sections"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CFG_TUSB_DEBUG=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_CMSIS_CORE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_ATOMIC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_CLIB_INTERFACE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_CRT0=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_CXX_OPTIONS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MULTICORE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_NEWLIB_INTERFACE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM_COMPILER=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM_PANIC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM_SECTIONS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_RUNTIME_INIT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STANDARD_BINARY_INFO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_TIME_ADAPTER=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_TINYUSB_DEVICE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_32BIT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+				},
+				{
+					"backtrace" : 12,
+					"define" : "PICO_CMSIS_RENAME_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_RP2040=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./config"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./FreeRTOS/Source/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./fonts"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./config/fonts"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./SEGGER_RTT"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./SEGGER_Sysview"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./minIni"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./LittlevGL"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./Modbus"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./RNet"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_atomic/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_stdlib_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_base_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/build/Debug/generated/pico_base"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/pico_platform/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_platform_compiler/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_platform_panic/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_platform_sections/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_ticks/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_time_adapter/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime_init/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_bit_ops_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_divider_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/boot_picoboot_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_boot_lock/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/boot_stage2/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/boot_picobin_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_multicore/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_spi/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_exception/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				147,
+				148,
+				149,
+				150,
+				152,
+				153,
+				154,
+				157,
+				158,
+				162,
+				163,
+				165,
+				167,
+				169,
+				170,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/src/IncludeMcuLibConfig.h"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-DPICO_STDIO_USB_ENABLE_RESET_VIA_VENDOR_INTERFACE=0"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-DENABLE_UNIT_TESTS=0"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fdata-sections"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CFG_TUSB_DEBUG=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_CMSIS_CORE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_ATOMIC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_CLIB_INTERFACE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_CRT0=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_CXX_OPTIONS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MULTICORE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_NEWLIB_INTERFACE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM_COMPILER=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM_PANIC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM_SECTIONS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_RUNTIME_INIT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STANDARD_BINARY_INFO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_TIME_ADAPTER=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_TINYUSB_DEVICE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_32BIT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+				},
+				{
+					"backtrace" : 12,
+					"define" : "PICO_CMSIS_RENAME_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_RP2040=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./config"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./FreeRTOS/Source/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./fonts"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./config/fonts"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./SEGGER_RTT"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./SEGGER_Sysview"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./minIni"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./LittlevGL"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./Modbus"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./RNet"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_atomic/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_stdlib_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_base_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/build/Debug/generated/pico_base"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/pico_platform/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_platform_compiler/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_platform_panic/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_platform_sections/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_ticks/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_time_adapter/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime_init/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_bit_ops_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_divider_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/boot_picoboot_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_boot_lock/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/boot_stage2/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/boot_picobin_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_multicore/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_spi/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_exception/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				128,
+				146,
+				151,
+				155,
+				156,
+				159,
+				160,
+				161,
+				164,
+				166,
+				171
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/src/IncludeMcuLibConfig.h"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-DPICO_STDIO_USB_ENABLE_RESET_VIA_VENDOR_INTERFACE=0"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-DENABLE_UNIT_TESTS=0"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-unwind-tables"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-use-cxa-atexit"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fdata-sections"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CFG_TUSB_DEBUG=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_CMSIS_CORE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_ATOMIC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_CLIB_INTERFACE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_CRT0=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_CXX_OPTIONS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_MULTICORE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_NEWLIB_INTERFACE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM_COMPILER=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM_PANIC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PLATFORM_SECTIONS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_RUNTIME_INIT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STANDARD_BINARY_INFO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_TIME_ADAPTER=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LIB_TINYUSB_DEVICE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_32BIT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+				},
+				{
+					"backtrace" : 12,
+					"define" : "PICO_CMSIS_RENAME_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_RP2040=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./config"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./FreeRTOS/Source/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./fonts"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./config/fonts"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./SEGGER_RTT"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./SEGGER_Sysview"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./minIni"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./LittlevGL"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./Modbus"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/McuLib/./RNet"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_atomic/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_stdlib_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_base_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Studium/FS25/AEMBS/AEMBS_pico/build/Debug/generated/pico_base"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/pico_platform/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_platform_compiler/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_platform_panic/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_platform_sections/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_ticks/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_time_adapter/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime_init/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_bit_ops_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_divider_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/boot_picoboot_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_boot_lock/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/boot_stage2/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/boot_picobin_headers/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_multicore/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_spi/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_exception/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				168
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "bs2_default_padded_checksummed_asm::@efaae0dfea37ab6992ce"
+		}
+	],
+	"id" : "McuLib::@042ba38dea3792c76892",
+	"name" : "McuLib",
+	"paths" : 
+	{
+		"build" : "srcLib/McuLib",
+		"source" : "McuLib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				147,
+				148,
+				149,
+				150,
+				152,
+				153,
+				154,
+				157,
+				158,
+				162,
+				163,
+				165,
+				167,
+				168,
+				169,
+				170,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				128,
+				146,
+				151,
+				155,
+				156,
+				159,
+				160,
+				161,
+				164,
+				166,
+				171
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/croutine.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/event_groups.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/portable/Common/mpu_wrappers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/portable/GCC/ARM_CM4F/portTicks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/portable/MemMang/heap_1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/portable/MemMang/heap_2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/portable/MemMang/heap_3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/portable/MemMang/heap_4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/portable/MemMang/heap_5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/portable/MemMang/heap_useNewlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/stream_buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/tasks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/FreeRTOS/Source/timers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/Modbus/McuHeidelberg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/Modbus/McuModbus.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/RNet/McuNRF24L01.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/RNet/McuRNet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/RNet/RApp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/RNet/RMAC.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/RNet/RMSG.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/RNet/RNWK.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/RNet/RPHY.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/RNet/RStack.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/RNet/RStdIO.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/RNet/Radio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/SEGGER_RTT/RTT_Syscalls_GCC.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/SEGGER_RTT/SEGGER_RTT.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/SEGGER_RTT/SEGGER_RTT_printf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/SEGGER_Sysview/McuSystemView.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/SEGGER_Sysview/SEGGER_SYSVIEW.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/SEGGER_Sysview/SEGGER_SYSVIEW_Config_FreeRTOS.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/SEGGER_Sysview/SEGGER_SYSVIEW_FreeRTOS.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour08Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour08Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour10Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour10Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour12Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour12Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour14Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour14Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour18Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour18Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour24Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontCour24Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv08Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv08Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv10Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv10Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv12Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv12Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv14Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv14Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv18Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv18Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv24Bold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/fonts/McuFontHelv24Normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/littleFS/McuLittleFS.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/littleFS/McuLittleFSBlockDevice.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/littleFS/lfs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/littleFS/lfs_util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/minIni/McuMinINI.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/minIni/minGlue-Flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/minIni/minGlue-LittleFS.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/minIni/minIni.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuArmTools.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuButton.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuCRC_CreateTable.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuCRC_Generator.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuCoverage.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuCriticalSection.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuDebounce.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuEE24.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuEvents.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuExtRTC.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuFXOS8700.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuFlash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuFontDisplay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuGDisplaySSD1306.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuGFont.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuGPIO.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuGenericI2C.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuGenericSWI2C.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuHardFault.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuI2cLib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuINA260.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuIO.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuLED.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuLib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuLog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuPCF85063A.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuRB.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuRTOS.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuRTT.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuSDEP.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuSHT31.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuSHT40.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuSPI.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuSSD1306.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuST7735.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuSemihost.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuShell.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuShellCdcDevice.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuShellUart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuTimeDate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuTimeout.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuTrigger.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuULN2003.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuUart485.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuUnity.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuUtility.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuW25Q128.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuWait.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuWatchdog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuX12_017.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/McuXFormat.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/SCL1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "McuLib/src/SDA1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2040/pico_platform/platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_platform_panic/panic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/hardware_claim/claim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_sync/sem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_sync/lock_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_sync/mutex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_sync/critical_section.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_time/time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_time/timeout_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_util/datetime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_util/pheap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/common/pico_util/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_ticks/ticks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_malloc/malloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_atomic/atomic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 2,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 1,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_crt0/crt0.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/tusb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_spi/spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/home/julian/Raspy/sdk/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
